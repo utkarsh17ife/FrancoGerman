@@ -1,0 +1,220 @@
+ .intro-section{
+ 	background-image: url(images/1.jpg) ;
+ }
+/*.dark-text{
+	color:#404040;
+	font-family: sans-serif;
+	font-weight: 700;
+}*/
+
+.dark-text{
+    color:#404040;
+    font-family: Montserrat;
+    /*font-weight: 700;*/
+}
+.greenbackground{
+	background-color: #5F676B;
+}
+/*.about-section{
+	background-color: #272727; }*/
+ 
+ .font-mont{
+ 	font-family: Montserrat;
+ }
+
+h1{margin-top:-50px}
+
+.test-wrapper img {
+    position: absolute;
+    left: 0px;
+    width: 18%;
+    border: 2px solid #B7112A;
+}
+
+.test-grid p {
+    background: none repeat scroll 0% 0% #00959F;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 2em;
+    letter-spacing: 1px;
+    color: #FFF;
+    font-family: Catamaran;
+}
+.test-gr {
+    margin-left: 6em;
+}
+.test-grid p::before {
+    background: url("images/left.png") no-repeat scroll 0% 0% transparent;
+    content: "";
+    display: inline-block;
+    margin: 0px 1.2em 0px 4em;
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
+}
+.white-color{
+    color: white;
+    font-family:Montserrat;
+    font-size: 3em;
+}
+.test-gr h4 {
+    font-size: 1.5em;
+    font-family: "Montserrat",sans-serif;
+}
+.test-gr span {
+    font-size: 1em;
+    font-style: italic;
+    margin: 0.5em 0px 0.8em;
+    display: block;
+}
+.test-grid {
+    float: right;
+    width: 97%;
+}   
+.test-gr {
+    margin-left: -18em;
+}
+.test-grid-2 {
+    margin-top: 4em;
+}
+}
+
+/* Contact page
+span.con-ph {
+    background: url("images/glyphicons/glyphicons-443-earphone.png") no-repeat scroll 0% 0% transparent;
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+}*/
+
+.contact-top p {
+    line-height: 1.8em;
+    font-size: 1em;
+    color: #474646;
+}
+
+.contact-top h2 {
+    font-size: 2.5em;
+    color: #00959F;
+    font-family: "Kreon",serif;
+}
+.contact-top p {
+    font-size: 1em;
+    color: #474646;
+    line-height: 1.8em;
+}
+.conta-1 {
+    padding: 2em 0em;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+.con-para h6 {
+    font-size: 1.4em;
+    color: #00959F;
+    margin-bottom: 0.2em;
+    font-family: "Kreon",serif;
+}
+.con-para p {
+    font-size: 1.2em;
+    color: #505050;
+}
+.con-para {
+    display: inline-block;
+}
+.conta-2 {
+    padding: 2em 0em;
+    border-bottom: 1px solid #CCC;
+}
+span.con-location {
+    background: url("images/location.png") no-repeat scroll 0% 0% transparent;
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+}
+span.con-ph {
+    background: url("images/phone2.png") no-repeat scroll 0% 0% transparent;
+    width: 35px;
+    height: 30px;
+    display: inline-block;
+}
+
+/* Form header */
+.contact-top h3 {
+   /* font-size: 2.5em;*/
+    color: #00959F;
+    font-family: "Kreon",serif;
+}
+.contact-top p {
+    line-height: 1.8em;
+    font-size: 1em;
+    color: #474646;
+}
+.contact-top {
+    margin-bottom: 3em;
+}
+/*.contact-top h3 {
+    font-size: 2.5em;
+    color: #A0431B;
+    font-family: "Kreon",serif;
+}*/
+.contact-top p {
+    line-height: 1.8em;
+    font-size: 1em;
+    color: #474646;
+}
+/* Form */
+input.shart {
+    font-size: 1em;
+    color: #777;
+    padding: 0.5em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    width: 49.5%;
+    outline: medium none;
+    font-family: "Kreon",serif;
+}
+input.long {
+    font-size: 1em;
+    color: #777;
+    padding: 0.5em;
+    width: 100%;
+    margin: 0.8em 0em;
+    outline: medium none;
+    border: 1px solid #999;
+    border-radius: 2px;
+    font-family: "Kreon",serif;
+}
+textarea {
+    font-size: 1em;
+    color: #777;
+    border: 1px solid #999;
+    border-radius: 2px;
+    width: 100%;
+    height: 8em;
+    padding: 0.5em;
+    outline: medium none;
+    resize: none;
+    font-family: "Kreon",serif;
+}
+.contact-right input[type="submit"] {
+    font-size: 1.2em;
+    color: #FFF;
+    border-width: medium medium 3px;
+    border-style: none none solid;
+    /*border-color: -moz-use-text-color -moz-use-text-color #C3820F;*/
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: none repeat scroll 0% 0% #00959F;
+    padding: 0.5em 1em;
+    outline: medium none;
+    margin: 0.8em 0em;
+    font-family: "Kreon",serif;
+    float: left;
+}
+.footer-basic-centered{
+	background-color: #00959F;
+}
+
